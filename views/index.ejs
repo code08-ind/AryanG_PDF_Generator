@@ -1,0 +1,63 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>AryanG PDF Generator</title>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+    <link rel="icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR93ij6qV2MucQqdIwTKHhnhbYhEKaSw0V7HA&usqp=CAU"
+        type="image/x-icon">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img
+                    src="https://cdn3.iconfinder.com/data/icons/file-and-folder-7/48/85-512.png" alt="PDF ICON"
+                    width="25px" height="25px"> AryanG
+                PDF Generator</a>
+        </div>
+    </nav>
+    <h1 class="text-center display-4">AryanG
+        PDF Generator</h1>
+    <p>
+        The AryanG
+        PDF Generator is a web service to obtain pdf of any webapge we are searching, and it will take you to that url
+        of the link and then takeout the pdf form of that web document.
+    </p>
+    <div class="container">
+        <h4 class="text-center">ENTER THE LINK OF THE WEBPAGE YOU WANT TO FORM PDF</h4>
+        <form action="/pdf" method="GET">
+            <div class="mb-3">
+                <input type="text" class="form-control" id="one" placeholder="Enter The Link" name="link">
+            </div>
+            <div class="rows">
+                <button class="btn btn-success px-6">Search</button>
+            </div>
+        </form>
+        <h5 class="my-3">CREATED BY &copy; ARYAN GARG @ 2021</h5>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+body {
+  background: #12c2e9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f64f59,
+    #c471ed,
+    #12c2e9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f64f59,
+    #c471ed,
+    #12c2e9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+nav.navbar {
+  border-bottom: 3px solid #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+nav.navbar div.container-fluid a.navbar-brand {
+  font-size: 22px;
+}
+
+nav.navbar div.container-fluid a.navbar-brand img {
+  filter: invert(1);
+}
+
+p {
+  text-transform: capitalize;
+  margin: 20px 220px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+div.container {
+  padding: 40px 50px 10px 50px;
+  background: #00c6ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #0072ff,
+    #00c6ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #0072ff,
+    #00c6ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: 6px solid white;
+  border-radius: 50px;
+  text-align: center;
+}
+
+div.container h4 {
+  font-weight: 400;
+  font-size: 40px;
+}
+
+div.container div.rows button.btn {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  padding: 10px 30px;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: rgb(19, 230, 19);
+}
