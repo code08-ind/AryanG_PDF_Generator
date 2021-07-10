@@ -5,28 +5,20 @@ For Installing This App You Can Use This Code Given In Project Files.
 
 For Running This App You Will Need Certain Node JS Packages And That Could Be Installed Using NPM By Making The App NPM Initialized By Running The Command Given Below In The Terminal :
 
-```javascript
+```js
 npm init
 ```
 Download Below Given Packages :
 
-```javascript
+```js
 npm install express -save
-```
 
-```javascript
 npm install ejs -save
-```
 
-```javascript
 npm install puppeteer -save
-```
 
-```javascript
 npm install nodemon -save
-```
 
-```javascript
 npm install body-parser -save
 ```
 
