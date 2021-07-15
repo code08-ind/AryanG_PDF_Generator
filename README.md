@@ -25,13 +25,13 @@ npm install body-parser --save
 And Now You Can Run This App Successfully On Your Devices.
 
 ### What Is Tech Stack Used?
-It Makes Use Of HTML,CSS In FrontEnd And Use Of Express JS And Node JS In Backend.
+It Makes Use Of HTML, CSS In FrontEnd And Use Of Express JS And Node JS In Backend.
 
 ### Outcomes Of Project:
 Here In You Need To Enter URL Of A Webpage And Then You Can View And Download The PDF Form Of That Webpage.
 
 ### Vision Of Project:
-The Vision Of Project Includes To Web Application That Can Take Out And Print The PDF Form Of Any Webpage.
+The Vision Of Project Includes To Make A Web Application That Can Take Out And Print The PDF Form Of Any Webpage.
 
 ### At What Stage Is Project:
 The Project Has Been Finished And Had Ended. Visit The Project Website By Going To Below Given Link:
